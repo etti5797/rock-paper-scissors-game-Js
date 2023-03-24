@@ -1,0 +1,64 @@
+*{
+    text-align: center;
+    background-color: #252831;
+    
+}
+
+p, label{
+    font-family: 'Cantora One', sans-serif;
+    font-size: 40px;
+}
+
+
+
+#scoreBoard{
+    margin: auto;
+    border: 2px solid white;
+    width: 200px;
+    font-family: 'Cantora One', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    position:relative;
+    padding: 20px 20px;
+}
+
+#user{
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    left: -25px;
+    top: 25px;
+    padding: 5px 5px;
+}
+
+#computer{
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    left: 200px;
+    top: 25px;
+    padding: 5px 5px;
+}
+
+
+.Btn{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border-color: white;
+    cursor: pointer;
+}
+
+.Btn:hover{
+    background-color: white;
+}
+
+
+#userRockWinScissors, #userPaperWinRock, #userScissorsWinPaper, #computerRockWinScissors, #computerPaperWinRock,
+#computerScissorsWinPaper, #TiePaper, #TieScissors, #TieRock{
+    display: none;
+}
+
+

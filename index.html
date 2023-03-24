@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/a1838fac37.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock-Paper-Scissors Game</title>
+</head>
+<body>
+    
+    <header>
+        <p>Rock Paper Scissors</p>
+    </header>
+    <div id="scoreBoard">
+        <label id="user">user</label>
+        <label id="score">0:0</label>
+        <label id="computer">computer</label>
+    </div><br>
+
+    <div class="choices">
+        <button id="rockBtn" class="Btn"><i class="fa-solid fa-hand-back-fist fa-rotate-90 fa-2xl"></i></button>
+        <button id="paperBtn" class="Btn"><i class="fa-solid fa-hand fa-2xl"></i></button>
+        <button id="scissorsBtn" class="Btn"><i class="fa-solid fa-hand-scissors fa-2xl"></i></button>
+    </div><br>
+
+    <div class="endGameOptions">
+        <div id="userRockWinScissors">
+            <label>You Win!</label><br>
+            <i class="fa-regular fa-hand-back-fist fa-rotate-90 fa-2xl"></i>
+            <i class="fa-regular fa-hand-scissors fa-2xl"></i>
+        </div>
+        <div id="userPaperWinRock">
+            <label>You Win!</label><br>
+            <i class="fa-regular fa-hand fa-2xl"></i>
+            <i class="fa-regular fa-hand-back-fist fa-rotate-270 fa-2xl"></i>
+        </div>
+        <div id="userScissorsWinPaper">
+            <label>You Win!</label><br>
+            <i class="fa-regular fa-hand-scissors fa-flip-horizontal fa-2xl"></i>
+            <i class="fa-regular fa-hand fa-2xl"></i>
+        </div>
+        <div id="computerRockWinScissors">
+            <label>Computer wins!</label><br>
+            <i class="fa-regular fa-hand-scissors fa-flip-horizontal fa-2xl"></i>
+            <i class="fa-regular fa-hand-back-fist fa-rotate-270 fa-2xl"></i>
+        </div>
+        <div id="computerPaperWinRock">
+            <label>Computer wins!</label><br>
+            <i class="fa-regular fa-hand-back-fist fa-rotate-90 fa-2xl"></i>
+            <i class="fa-regular fa-hand fa-2xl"></i>
+        </div>
+        <div id="computerScissorsWinPaper">
+            <label>Computer wins!</label><br>
+            <i class="fa-regular fa-hand fa-2xl"></i>
+            <i class="fa-regular fa-hand-scissors fa-2xl"></i>
+        </div>
+        <div id="TiePaper">
+            <label>It's a Tie!</label><br>
+            <i class="fa-regular fa-hand fa-2xl"></i>
+            <i class="fa-regular fa-hand fa-2xl"></i>
+        </div>
+        <div id="TieScissors">
+            <label>It's a Tie!</label><br>
+            <i class="fa-regular fa-hand-scissors fa-flip-horizontal fa-2xl"></i>
+            <i class="fa-regular fa-hand-scissors fa-2xl"></i>
+        </div>
+        <div id="TieRock">
+            <label>It's a Tie!</label><br>
+            <i class="fa-regular fa-hand-back-fist fa-rotate-90 fa-2xl"></i>
+            <i class="fa-regular fa-hand-back-fist fa-rotate-270 fa-2xl"></i>
+        </div>
+        
+    </div>
+   
+
+        
+    
+    <script src="index.js"></script>
+</body>
+</html>
